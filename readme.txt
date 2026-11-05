@@ -4,7 +4,7 @@ Tags: pdf, ebook, book, export, print
 Requires at least: 6.4
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 2.0.0
+Stable tag: 2.0.1
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -123,6 +123,9 @@ WordPress 6.4 or later and PHP 7.4 or later, including PHP 8.4.
 6. A finished book: cover, contents and chapter pages.
 
 == Changelog ==
+
+= 2.0.1 =
+* Maintenance: updated a JavaScript dependency that had a security advisory, and tidied the admin styles. No changes to how the plugin works.
 
 = 2.0.0 =
 * **BookPress:** WP Book is now BookPress – PDF eBook Maker, rebuilt from the ground up.
