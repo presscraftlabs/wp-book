@@ -5,7 +5,7 @@
 $radius: 8px;
 $border: #e0e0e0;
 $muted: #6b6b6b;
-$surface: #ffffff;
+$surface: #fff;
 $canvas: #f6f7f7;
 $brand: var(--wp-admin-theme-color, #3858e9);
 
@@ -190,7 +190,7 @@ $brand: var(--wp-admin-theme-color, #3858e9);
 .wpbook-cover-thumb {
 	--wpbook-primary: #1f2a44;
 	--wpbook-accent: #f2b84b;
-	--wpbook-text: #ffffff;
+	--wpbook-text: #fff;
 	position: relative;
 	display: flex;
 	flex-direction: column;
@@ -351,7 +351,7 @@ $brand: var(--wp-admin-theme-color, #3858e9);
 			top: 10%;
 			height: 46%;
 			background: linear-gradient(160deg, #a7bcc9, #6d8aa3);
-			border: 3px solid #ffffff;
+			border: 3px solid #fff;
 			box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
 		}
 	}
@@ -488,6 +488,7 @@ $brand: var(--wp-admin-theme-color, #3858e9);
 /* New book modal and galleries */
 
 .wpbook-new-modal {
+
 	.components-modal__content {
 		padding-bottom: 0;
 	}
@@ -515,7 +516,7 @@ $brand: var(--wp-admin-theme-color, #3858e9);
 
 		&.is-active {
 			background: $brand;
-			color: #ffffff;
+			color: #fff;
 		}
 	}
 }
@@ -632,7 +633,7 @@ $brand: var(--wp-admin-theme-color, #3858e9);
 		flex-direction: column;
 		gap: 5px;
 		padding: 12% 10%;
-		background: #ffffff;
+		background: #fff;
 		box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
 
 		i {
@@ -731,6 +732,7 @@ $brand: var(--wp-admin-theme-color, #3858e9);
 }
 
 @keyframes wpbook-indeterminate {
+
 	0% {
 		transform: translateX(-100%);
 	}
@@ -850,7 +852,7 @@ $brand: var(--wp-admin-theme-color, #3858e9);
 
 				.wpbook-step-number {
 					background: $brand;
-					color: #ffffff;
+					color: #fff;
 				}
 			}
 		}
@@ -929,6 +931,7 @@ $brand: var(--wp-admin-theme-color, #3858e9);
 }
 
 .wpbook-color-field {
+
 	&__toggle {
 		gap: 8px;
 		width: 100%;
@@ -977,6 +980,7 @@ $brand: var(--wp-admin-theme-color, #3858e9);
 }
 
 .wpbook-chapters {
+
 	&__empty {
 		padding: 24px;
 		margin-bottom: 12px;
@@ -1026,7 +1030,7 @@ $brand: var(--wp-admin-theme-color, #3858e9);
 		touch-action: none;
 
 		svg {
-			fill: currentColor;
+			fill: currentcolor;
 		}
 	}
 
@@ -1168,7 +1172,7 @@ $brand: var(--wp-admin-theme-color, #3858e9);
 
 		.components-button {
 			margin-left: auto;
-			color: #ffffff;
+			color: #fff;
 		}
 	}
 
@@ -1212,7 +1216,7 @@ $brand: var(--wp-admin-theme-color, #3858e9);
 		cursor: pointer;
 
 		&.is-active {
-			background: #ffffff;
+			background: #fff;
 			color: #1e1e1e;
 		}
 
@@ -1237,6 +1241,7 @@ $brand: var(--wp-admin-theme-color, #3858e9);
 }
 
 @media (max-width: 1280px) {
+
 	.wpbook-editor.has-preview {
 		grid-template-columns: 200px minmax(0, 1fr);
 		grid-template-areas:
@@ -1258,6 +1263,7 @@ $brand: var(--wp-admin-theme-color, #3858e9);
 }
 
 @media (max-width: 782px) {
+
 	.wpbook-editor,
 	.wpbook-editor.has-preview {
 		grid-template-columns: minmax(0, 1fr);
